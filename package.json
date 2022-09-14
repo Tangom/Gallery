@@ -1,0 +1,26 @@
+{
+  "name": "gallery",
+  "version": "1.0.0",
+  "description": "Репозиторий для галереи с возможностью открытия добавления и удаления. \r * [Ссылка на готовый проект В Гитхабе](https://tangom.github.io//index.html )",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tangom/Gallery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tangom/Gallery/issues"
+  },
+  "homepage": "https://github.com/Tangom/Gallery#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
