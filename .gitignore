@@ -23,5 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # Optional REPL history
+.DS_Store
 .idea
 .vscode 
