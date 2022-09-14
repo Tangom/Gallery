@@ -27,22 +27,10 @@ class Person {
   }
 }
 
-class extendedPerson extends Person {
-  constructor(data) {
-    super(data);
-    this._town = data.town;
-  }
-
-  generatePerson() {
-    super.generatePerson();
-    return this._element;
-  }
-}
-
 function createPersons(personList, list) {
   personList.forEach((item) => {
 // Создадим экземпляр
-    const person = item.town ? new extendedPerson(item) : new Person(item);
+    const person = new Person(item);
     // Создаём личность и возвращаем наружу
     const personElement = person.generatePerson();
     const selectorList = document.querySelector(list);

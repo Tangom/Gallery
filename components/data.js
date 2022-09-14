@@ -7,7 +7,6 @@ import nekto from '../images/Некто.jpg';
 const personList = [{
   name: 'Екатерина Виноградова',
   link: vinograd,
-  town: 'Москва'
 },
   {
     name: 'Наталья Шевченко',
@@ -27,7 +26,7 @@ const personList = [{
 const allData =
   [{
     personList: personList,
-    list: '.list_dj',
+    list: '.list',
   }]
 
 

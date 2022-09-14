@@ -1,6 +1,6 @@
 import {Person} from './Person.js';
 
-const listDj = document.querySelector('.list_dj');
+const list = document.querySelector('.list');
 const add = document.querySelector('.add');
 import {personList} from './data.js';
 
@@ -34,7 +34,7 @@ const photo = new AddPhoto({
     personList.push(data);
     const person = new Person(data);
     const personElement = person.generatePerson();
-    listDj.append(personElement);
+    list.append(personElement);
   }
 });
 
