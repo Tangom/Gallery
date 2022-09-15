@@ -17,7 +17,6 @@ class Person {
     image.src = this._link;
     image.alt = this._name;
     this._element.querySelector('.person__name').textContent = this._name;
-    this._element.querySelector('.person__town').textContent = this._town;
 
     return this._element;
   }
