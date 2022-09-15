@@ -1,26 +1,27 @@
 .main-image {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
+  width: 500px;
+  height: 600px;
+  border-radius: 5%;
   object-fit: cover;
   margin: auto;
+  display: flex;
   transition: 1s;
 }
 
 .main-image:hover {
-  box-shadow:0 0 80px rgb(246, 222, 7);
+  box-shadow: 0 0 80px rgb(246, 222, 7);
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .main-image {
-    max-width: 150px;
-    height: 150px;
+    max-width: 350px;
+    height: 450px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .main-image {
-    max-width: 100px;
-    height: 100px;
+    max-width: 200px;
+    height: 300px;
   }
 }
