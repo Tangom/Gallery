@@ -22,7 +22,6 @@ const personList = [{
   }
 ]
 
-
 const allData =
   [{
     personList: personList,
