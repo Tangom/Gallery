@@ -1,5 +1,7 @@
 import {openPopupImage} from './PopupPhoto.js';
 
+const photo = document.querySelector('.main-image');
+
 class Person {
   constructor(data) { // конструктор получает объект
     this._name = data.name;
@@ -23,8 +25,16 @@ class Person {
 
   _setEventListeners() {
     this._element.querySelector('.person__image').addEventListener('click', openPopupImage);
+    this._element.querySelector('.person__image').addEventListener('mouseover', lookPhoto);
   }
 }
+
+function lookPhoto(evt) {
+  photo.src = evt.target.src;
+  photo.alt = evt.target.alt;
+  photo.textContent = evt.target.alt;
+}
+setTimeout(lookPhoto, 1000);
 
 function createPersons(personList, list) {
   personList.forEach((item) => {
