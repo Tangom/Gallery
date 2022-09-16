@@ -29,12 +29,13 @@ class Person {
   }
 }
 
+
 function lookPhoto(evt) {
-  photo.src = evt.target.src;
-  photo.alt = evt.target.alt;
-  photo.textContent = evt.target.alt;
+    photo.src = evt.target.src;
+    photo.alt = evt.target.alt;
+    photo.textContent = evt.target.alt;
+  return setTimeout(lookPhoto, 6000)
 }
-setTimeout(lookPhoto, 3000);
 
 function createPersons(personList, list) {
   personList.forEach((item) => {
