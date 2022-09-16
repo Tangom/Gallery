@@ -1,7 +1,8 @@
 .main-image {
-  width: 400px;
-  height: 500px;
+  width: 450px;
+  height: 550px;
   border-radius: 5%;
+  object-fit: cover;
   margin: auto;
   display: flex;
   transition: 1s;

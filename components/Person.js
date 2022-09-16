@@ -34,7 +34,7 @@ function lookPhoto(evt) {
   photo.alt = evt.target.alt;
   photo.textContent = evt.target.alt;
 }
-setTimeout(lookPhoto, 1000);
+setTimeout(lookPhoto, 3000);
 
 function createPersons(personList, list) {
   personList.forEach((item) => {
