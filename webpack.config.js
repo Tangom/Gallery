@@ -5,7 +5,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = { // module.exports — это синтаксис экспорта в Node.js
-  entry: { main: './main.js' },
+  entry: { main: './src/main.js' },
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'main.js',

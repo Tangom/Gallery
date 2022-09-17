@@ -2,7 +2,7 @@
   "name": "gallery",
   "version": "1.0.0",
   "description": "Репозиторий для галереи с возможностью открытия добавления и удаления. \r * [Ссылка на готовый проект В Гитхабе](https://tangom.github.io//index.html )",
-  "main": "main.js",
+  "main": "src/main.js",
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack serve",
