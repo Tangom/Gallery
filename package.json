@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tangom/Gallery.git"
+    "url": "git+https://github.com/Tangom/gallery.git"
   },
   "author": "Tangom",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Tangom/Gallery/issues"
+    "url": "https://github.com/Tangom/gallery/issues"
   },
-  "homepage": "https://github.com/Tangom/Gallery#readme",
+  "homepage": "https://github.com/Tangom/gallery#readme",
   "devDependencies": {
     "@babel/core": "^7.19.6",
     "@babel/preset-env": "^7.19.4",
