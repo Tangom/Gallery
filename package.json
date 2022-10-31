@@ -1,6 +1,6 @@
 {
-  "name": "gallery",
-  "version": "1.0.0",
+  "name": "yandex_praktikum",
+  "version": "0.0.1",
   "description": "Репозиторий для галереи с возможностью открытия добавления и удаления. \r * [Ссылка на готовый проект В Гитхабе](https://tangom.github.io//index.html )",
   "main": "src/main.js",
   "scripts": {
@@ -13,20 +13,20 @@
     "type": "git",
     "url": "git+https://github.com/Tangom/Gallery.git"
   },
-  "author": "",
+  "author": "Tangom",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Tangom/Gallery/issues"
   },
   "homepage": "https://github.com/Tangom/Gallery#readme",
   "devDependencies": {
-    "@babel/core": "^7.19.0",
-    "@babel/preset-env": "^7.19.0",
-    "autoprefixer": "^10.4.10",
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "autoprefixer": "^10.4.13",
     "babel-loader": "^8.2.5",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.7.1",
-    "cssnano": "^5.1.13",
+    "cssnano": "^5.1.14",
     "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.6.1",
@@ -36,6 +36,6 @@
     "webpack-dev-server": "^4.11.0"
   },
   "dependencies": {
-    "core-js": "^3.25.1"
+    "core-js": "^3.26.0"
   }
 }
